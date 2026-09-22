@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Tide & Timber is a coastal field school for curious people who want to restore, explore, and protect shorelines.">
+  <title>Tide & Timber | Coastal Field School</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg fixed-top" aria-label="Main navigation">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center gap-2" href="#top" aria-label="Tide and Timber home">
+        <span class="brand-mark">T<span>+</span>T</span>
+        <span>Tide &amp; Timber</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-4">
+          <li class="nav-item"><a class="nav-link" href="#field-notes">Field notes</a></li>
+          <li class="nav-item"><a class="nav-link" href="#sessions">Sessions</a></li>
+          <li class="nav-item"><a class="nav-link" href="#manifesto">Our why</a></li>
+          <li class="nav-item"><button class="btn btn-dark nav-cta" data-bs-toggle="modal" data-bs-target="#joinModal">Join the next tide <span aria-hidden="true">↗</span></button></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main id="top">
+    <section class="hero-section">
+      <div class="container position-relative">
+        <div class="row align-items-end hero-row">
+          <div class="col-lg-7">
+            <p class="eyebrow"><span class="eyebrow-dot"></span> Shoreline learning, made human</p>
+            <h1>Get your hands<br><em>in the tide.</em></h1>
+            <p class="hero-copy">A field school for people who want to understand their coast, restore its edges, and leave with salt on their sleeves.</p>
+            <div class="d-flex flex-wrap gap-3 hero-actions">
+              <a class="btn btn-coral" href="#sessions">Explore field sessions <span aria-hidden="true">↓</span></a>
+              <a class="text-link" href="#manifesto">Why we show up <span aria-hidden="true">↗</span></a>
+            </div>
+          </div>
+          <div class="col-lg-5 hero-side">
+            <div class="tide-card">
+              <p class="card-label">Next high tide</p>
+              <div class="tide-time">06:42 <span>AM</span></div>
+              <div class="tide-line"><span></span></div>
+              <div class="d-flex justify-content-between tide-meta"><span>Sat, 12 October</span><span>+1.8m</span></div>
+              <p class="tide-note">Perfect conditions for a sunrise marsh walk.</p>
+            </div>
+          </div>
+        </div>
+        <div class="hero-stamp" aria-hidden="true">EST.<br><strong>2018</strong></div>
+      </div>
+    </section>
+
+    <section class="intro-strip" id="manifesto">
+      <div class="container">
+        <div class="row g-4 align-items-center">
+          <div class="col-lg-4"><p class="section-kicker">01 / Our approach</p></div>
+          <div class="col-lg-8"><p class="intro-lead">The coast is not a backdrop. It is a living classroom, a pantry, a storm break, and a story we are still writing.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="notes-section" id="field-notes">
+      <div class="container">
+        <div class="section-heading d-flex justify-content-between align-items-end flex-wrap gap-3">
+          <div><p class="section-kicker">02 / From the field</p><h2>Small observations.<br><em>Big ripples.</em></h2></div>
+          <a class="text-link" href="#notes">Read the journal <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="row g-4 mt-2" id="notes">
+          <div class="col-md-6 col-lg-4">
+            <article class="note-card note-card-tall">
+              <div class="note-image image-marsh"><span class="image-tag">Field note 041</span></div>
+              <div class="note-body"><p class="note-meta">Salt marsh / 4 min read</p><h3>Where the reeds hold the line</h3><p>What a patch of cordgrass can teach us about resilience, one root at a time.</p><a href="#" class="arrow-link" aria-label="Read Where the reeds hold the line">Read note <span>↗</span></a></div>
+            </article>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <article class="note-card note-card-offset">
+              <div class="note-image image-tidepool"><span class="image-tag">Field note 039</span></div>
+              <div class="note-body"><p class="note-meta">Rock pool / 6 min read</p><h3>A pocket-sized universe</h3><p>Meet the tiny architects making a home in the space between waves.</p><a href="#" class="arrow-link" aria-label="Read A pocket-sized universe">Read note <span>↗</span></a></div>
+            </article>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <article class="note-card">
+              <div class="note-image image-dune"><span class="image-tag">Field note 037</span></div>
+              <div class="note-body"><p class="note-meta">Dune path / 3 min read</p><h3>The quiet work of sand</h3><p>Why walking lightly is the first tool in every restoration kit.</p><a href="#" class="arrow-link" aria-label="Read The quiet work of sand">Read note <span>↗</span></a></div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sessions-section" id="sessions">
+      <div class="container">
+        <div class="row g-5 align-items-start">
+          <div class="col-lg-5">
+            <p class="section-kicker light">03 / Learn by doing</p>
+            <h2 class="light-heading">Pick a<br><em>current.</em></h2>
+            <p class="section-copy">Three ways to spend a day outside, guided by people who know every bend in the shoreline.</p>
+            <div class="accordion accordion-flush session-accordion mt-5" id="sessionAccordion">
+              <div class="accordion-item"><h3 class="accordion-header"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#sessionOne" aria-expanded="true" aria-controls="sessionOne"><span>01</span> Dawn marsh walk</button></h3><div id="sessionOne" class="accordion-collapse collapse show" data-bs-parent="#sessionAccordion"><div class="accordion-body">Read the landscape before breakfast. Binoculars, coffee, and a slow two-hour walk through the salt marsh.</div></div></div>
+              <div class="accordion-item"><h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sessionTwo" aria-expanded="false" aria-controls="sessionTwo"><span>02</span> Dune repair crew</button></h3><div id="sessionTwo" class="accordion-collapse collapse" data-bs-parent="#sessionAccordion"><div class="accordion-body">Plant native beach grass, learn how dunes move, and help make a stronger first line against storms.</div></div></div>
+              <div class="accordion-item"><h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sessionThree" aria-expanded="false" aria-controls="sessionThree"><span>03</span> Tide pool lab</button></h3><div id="sessionThree" class="accordion-collapse collapse" data-bs-parent="#sessionAccordion"><div class="accordion-body">A curious, family-friendly introduction to the creatures and chemistry hiding beneath the low tide mark.</div></div></div>
+            </div>
+          </div>
+          <div class="col-lg-7">
+            <div id="fieldCarousel" class="carousel slide field-carousel" data-bs-ride="carousel">
+              <div class="carousel-indicators"><button type="button" data-bs-target="#fieldCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button><button type="button" data-bs-target="#fieldCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button><button type="button" data-bs-target="#fieldCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button></div>
+              <div class="carousel-inner">
+                <div class="carousel-item active"><div class="carousel-art art-marsh"><span>Low tide, high attention.</span></div></div>
+                <div class="carousel-item"><div class="carousel-art art-dune"><span>Make room for roots.</span></div></div>
+                <div class="carousel-item"><div class="carousel-art art-pool"><span>Look closer. Always.</span></div></div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#fieldCarousel" data-bs-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="visually-hidden">Previous</span></button><button class="carousel-control-next" type="button" data-bs-target="#fieldCarousel" data-bs-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span><span class="visually-hidden">Next</span></button>
+            </div>
+            <div class="session-caption d-flex justify-content-between align-items-center"><span>Field school / North coast</span><span>01 — 03</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="quote-section">
+      <div class="container"><div class="row justify-content-center text-center"><div class="col-lg-8"><p class="quote-mark">“</p><blockquote>We came for a walk and left with a different idea of what home means.</blockquote><p class="quote-credit">— Mara, October cohort</p></div></div></div>
+    </section>
+
+    <footer class="site-footer">
+      <div class="container"><div class="row g-4 align-items-end"><div class="col-lg-6"><a class="footer-brand" href="#top">Tide <span>&amp;</span> Timber</a><p class="footer-note">A coastal field school for the observant and optimistic.</p></div><div class="col-lg-6 text-lg-end"><p class="footer-label">Stay in the current</p><form class="newsletter-form" id="newsletterForm"><label class="visually-hidden" for="email">Email address</label><input type="email" id="email" placeholder="Your email address" required><button type="submit" class="btn btn-coral">Subscribe <span aria-hidden="true">↗</span></button></form><p class="form-message" id="formMessage" role="status"></p></div></div><div class="footer-bottom d-flex justify-content-between flex-wrap gap-2"><span>© 2025 Tide &amp; Timber</span><span>Made for the edge of things.</span></div></div>
+    </footer>
+  </main>
+
+  <div class="modal fade" id="joinModal" tabindex="-1" aria-labelledby="joinModalLabel" aria-hidden="true"><div class="modal-dialog modal-dialog-centered"><div class="modal-content"><div class="modal-header"><h2 class="modal-title" id="joinModalLabel">Join the next tide</h2><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div><div class="modal-body"><p>Leave your email and we’ll send the next field school dates, tide times, and a little reason to get outside.</p><form id="joinForm"><label for="joinEmail" class="form-label">Email address</label><input type="email" class="form-control" id="joinEmail" placeholder="you@example.com" required><button type="submit" class="btn btn-coral w-100 mt-3">Keep me posted <span aria-hidden="true">↗</span></button></form><p class="form-message" id="joinMessage" role="status"></p></div></div></div></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
